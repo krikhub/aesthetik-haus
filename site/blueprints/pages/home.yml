@@ -1,0 +1,38 @@
+title: Home
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      fields:
+        type: fields
+        fields:
+          headline:
+            type: text
+            label: Headline
+          text:
+            type: textarea
+            label: Text
+            size: large
+          buttons:
+            type: structure
+            label: Buttons
+            fields:
+              text:
+                type: text
+                label: Button Text
+              link:
+                type: link
+                label: Button Link
+              style:
+                type: select
+                label: Button Style
+                options:
+                  primary: Primary
+                  secondary: Secondary
+                  outline: Outline
+  sidebar:
+    width: 1/3
+    sections:
+      files:
+        type: files
